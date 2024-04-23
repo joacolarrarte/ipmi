@@ -19,6 +19,7 @@ scale(0.4);
 
 
 //CUELLO
+
 strokeWeight(2);
 fill(255,230,203);
 beginShape();
@@ -34,8 +35,6 @@ vertex(1000-372,907);
 curveVertex(1000-440,939);
 curveVertex(1000-485,943);
 endShape();
-
-
 
 //BORDE CARA
 
@@ -326,6 +325,7 @@ popMatrix();
 }
 
 //LINEAS CACHETES
+
 noFill();
 strokeWeight(0.1);
 bezier(467,225,490,268,528,253,533,297);
@@ -334,6 +334,7 @@ bezier(width-67,225,width-90,268,width-128,253,width-133,297);
 
 
 //BUZO
+
 fill(1);
 triangle(546,388,538,400,600,400);
 triangle(width-146,388,width-138,400,600,400);
