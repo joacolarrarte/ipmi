@@ -1,3 +1,7 @@
+/* Joaquin Larrarte
+   Comision 3 - Retrato
+*/
+
 PImage img;
 
 void setup(){
