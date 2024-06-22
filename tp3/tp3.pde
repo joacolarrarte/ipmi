@@ -1,8 +1,8 @@
 
-/*    https://youtu.be/0tyouR2rWjE
-      Joaquin Larrrate
-      Legajo: 120333/8
-      Comision 3
+/*  https://youtu.be/0tyouR2rWjE 
+    Joaquin Larrrate
+    Legajo: 120333/8
+    Comision 3
 */
 
 int tam, tam2;
@@ -23,5 +23,5 @@ void draw() {
   background(255);
   dibujoCuadrados();
   dibujoCirculos();
-  image( img, 0, 0, 400, 400);
+  imagen( 0, 0, 400, 400 );
 }
