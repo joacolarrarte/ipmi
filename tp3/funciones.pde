@@ -1,5 +1,8 @@
 
-
+// funcion propia con parametros que no retorna un valor
+void imagen( int posX, int posY, int tamañoX, int tamañoY ) {
+  image( img, posX, posY, tamañoX, tamañoY );
+}
 void dibujoCuadrados( ) {
   // cuadrados sin interaccion
   if ( mouseX<400 ) {
@@ -107,3 +110,4 @@ void dibujoCirculos() {
     }
   }
 }
+
